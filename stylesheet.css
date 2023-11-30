@@ -11,3 +11,6 @@ footer{
 	text-align:left;
 	font-family: sans-serif;
 }
+button{
+	cursor: pointer;
+}
