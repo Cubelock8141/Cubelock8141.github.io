@@ -1,0 +1,16 @@
+body{
+	background-color:#FFCF4C;
+	text-align:center;
+	font-family: sans-serif;
+}
+header{
+	background-color:#855cd6;
+}
+footer{
+	background-color:#ffebb4;
+	text-align:left;
+	font-family: sans-serif;
+}
+button{
+	cursor: pointer;
+}
