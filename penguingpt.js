@@ -475,7 +475,7 @@
             const prompt = args.PROMPT;
             const requestedModel = args.MODEL
 
-            return Scratch.fetch(`${api_url}/images/generations`, { // This cant be added from the API URL.
+            return Scratch.fetch(`${api_url}, { // This cant be added from the API URL.
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -506,7 +506,7 @@
             const Name = args.NAME || `AIGenerated_${prompt}`;
             const targetId = util.target.id;
 
-            return Scratch.fetch(`${api_url}/images/generations`, {
+            return Scratch.fetch(`${api_url}, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
